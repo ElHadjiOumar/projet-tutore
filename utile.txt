@@ -1,0 +1,18 @@
+<?php
+   require '/path/to/vendor/autoload.php';
+?>
+<div class='projects'>
+                    <h3>information vehicule</h3>
+                    <div class='info'>
+                        
+                        <div class='data'>
+                            <h4>Année Achat Vehicule</h4>
+                            <p>07/07/2020</p>
+                        </div>
+                        <div class='data'>
+                            <h4>Date expiration</h4>
+                            <p>24/07/2025</p>
+                        </div>
+                        
+                    </div>
+                </div>

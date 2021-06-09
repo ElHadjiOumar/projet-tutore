@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Detection plaque</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <h1 class="title">Bienvenu sur le site de reconnaissance de plaque de l'ESMT ACAD</h1>
+    <div class="container">
+        <div class="wrapper">
+            <div class="image">
+              <img src="" alt="">
+            </div>
+            <div class="content">
+              <div class="icon">
+                <i class="fas fa-cloud-upload-alt"></i>
+              </div>
+              <div class="text">No file chosen, yet!</div>
+            </div>
+            <div id="cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <div class="file-name">
+              File name here
+            </div>
+        </div>
+        <button onclick="defaultBtnActive()" id="custom-btn">Choisissez une image</button>
+        <form action="./Test/DetectText.php" method="post" enctype="multipart/form-data">  
+          <input id="fileToUpload" name="fileToUpload" type="file" hidden>
+          <button id="custom-btn" type="submit" name="submit">Rechercher</button>
+        </form>
+           
+    </div>
+    <script src="upload.js"></script>
+  </body>
+</html>
